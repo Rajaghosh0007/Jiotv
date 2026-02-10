@@ -85,12 +85,8 @@
     <div class="error-content">
       <h3 id="errorTitle">@allinone_reborn</h3>
       <p id="errorMessage"></p>
-      <button class="close-btn"
+      <button class="close-btn" onclick="document.getElementById('errorModal').classList.add('hidden')">Close</button>
     </div>
-  </div>
-
-  <div class="shaka-video-container" data-shaka-player data-shaka-controls>
-    <video autoplay muted playsinline preload="metadata"></video>
   </div>
 
   <script>
